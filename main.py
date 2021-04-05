@@ -26,13 +26,6 @@ initial_extensions = [
 	"Cogs.ping"
 ]
 
-client.on("guildMemberAdd", (member) => {
-   console.log(`Escalvo Nuevo:  ${member.user.username} ha sido capturado ${member.guild.name}.`);
-   var canal = client.channels.get('717533589654208662'); 
-   canal.send(`${member.user}, ingrese, pasala bien y espero que le gusten los asotes.`);
-   
-});
-
 print(initial_extensions)
 
 if __name__ == '__main__':
