@@ -8,6 +8,7 @@ with open("configuration.json", "r") as config:
 	token = data["token"]
 	prefix = data["prefix"]
 
+# Cambio
 
 class Greetings(commands.Cog):
 	def __init__(self, bot):
