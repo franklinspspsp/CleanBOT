@@ -24,7 +24,9 @@ bot = commands.Bot(prefix, intents = intents)
 initial_extensions = [
 	"Cogs.onCommandError",
 	"Cogs.help",
-	"Cogs.ping"
+	"Cogs.ping",
+	"Cogs.tools",
+	"Cogs.cleanCommands"
 ]
 
 print(initial_extensions)
