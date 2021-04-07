@@ -11,7 +11,6 @@ class cleanCommands(commands.Cog):
                     usage="<usage>",
                     description = "description")
     @commands.guild_only()
-    @commands.has_permissions()
     @commands.cooldown(1, 2, commands.BucketType.member)
     async def commandName(self, ctx:commands.Context):
         await ctx.send("template command")

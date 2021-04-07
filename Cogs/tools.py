@@ -1,12 +1,14 @@
 import discord
 from discord.ext import commands
 
-
+# En esta clase definimos los comandos de este cog
 class Tools(commands.Cog, name="BotTools"):
+
+    # Cosas que hacer la primera vez que cargamos este Cog en el bot
     def __init__(self, bot:commands.Bot):
         self.bot = bot
 
-
+    # Comando
     @commands.command(name = "reload",
                     usage="<usage>",
                     description = "Actualiza los cogs del bot")
