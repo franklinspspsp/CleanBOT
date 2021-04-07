@@ -152,7 +152,9 @@ Thumbs.db #thumbnail cache on Windows
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+.vscode/settings.json
 
 ## Ignora secretos y logs
-*.log
 configuration.json
+*.log
+temp/
